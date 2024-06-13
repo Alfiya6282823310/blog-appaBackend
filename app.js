@@ -55,7 +55,7 @@ app.post("/signin",async(req,res)=>{
         }
     ).catch()
 })
-
+app.post()
 app.listen(8080,()=>{
     console.log("server started")
 })
